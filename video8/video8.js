@@ -13,7 +13,7 @@ let obj = {
 // "{name : 'Eric', address: 'Ha Noi'}"
 
 let b = "Danh"
-
+ 
 obj.b = 'Ali' // Add b: Ali
 console.log('type of obj: ',typeof obj, 'type of b: ',typeof b);
 console.log(`What is ur name? `, `My name's: `, obj.name);
