@@ -22,7 +22,7 @@ let filter2 = arr.filter((item, index) => {
 console.log(filter2);
 
 //========= Find method ========
-//return item (if not -> return undefined)
+//return first-item (if not -> return undefined)
 
 let find1 = arr.find((item, index) => {
     return item && item.age == 25;
